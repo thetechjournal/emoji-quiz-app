@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Emoji Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Stay Safe from C🦠VID 19</h1>
+            <h2>Play this Drag & Drop quiz to see if you can guess right emoji sets</h2>
+        </div>
+        <div id= "emojis" class="emojis">
+              <ul class="covid-answers" id="covid-answers">
+                <li class="answers-emoji"><span id="draggable-1" data-emoji="1" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🚫🤦</span></li>
+                <li class="answers-emoji"><span id="draggable-4" data-emoji="4" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🧼👐🚰</span></li>
+                <li class="answers-emoji"><span id="draggable-3" data-emoji="3" class="emojis-draggable" draggable="true" ondragstart="drag(event)">✅🤧💪</span></li>
+                <li class="answers-emoji"><span id="draggable-2" data-emoji="2" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🚫🤧🤲</span></li>
+                <li class="answers-emoji"><span id="draggable-5" data-emoji="5" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🚇😷🛒</span></li>
+            </ul>
+            <table class="covid-facts">
+                <thead>
+                  <tr>
+                    <th style="width: 80%;">Suggested Behaviors</th>
+                    <th style="width: 20%;" class="has-rip">Emoji</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Don't touch your face.</td>
+                    <td id="droppable-1" data-emoji="1" class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Don't sneeze into hands.</td>
+                    <td id="droppable-2" data-emoji="2" class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Do sneeze into your elbow.</td>
+                    <td id="droppable-3" data-emoji="3" class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Wash your hands often.</td>
+                    <td id="droppable-4" data-emoji="4" class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Wearing a mask in public.</td>
+                    <td id="droppable-5" data-emoji="5" class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <ul class="covid-answers">
+                <li class="answers-emoji"><span id="draggable-7" data-emoji="7" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🚫🧑‍🤝‍🧑</span></li>
+                <li class="answers-emoji"><span id="draggable-10" data-emoji="10" class="emojis-draggable" draggable="true" ondragstart="drag(event)">📦🚪</span></li>
+                <li class="answers-emoji"><span id="draggable-9" data-emoji="9" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🧍↔️🧍</span></li>
+                <li class="answers-emoji"><span id="draggable-8" data-emoji="8" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🚫🏟 </span></li>
+                <li class="answers-emoji"><span id="draggable-6" data-emoji="6" class="emojis-draggable" draggable="true" ondragstart="drag(event)">🚫🤝</span></li>
+              
+            </ul>
+            <table class="covid-facts">
+                <thead>
+                  <tr>
+                    <th style="width: 80%;">Social Distancing</th>
+                    <th style="width: 20%;" class="has-rip">Emoji</th>
+                  </tr>
+                </thead>
+                <tbody>
+                 
+                  <tr>
+                    <td> No handshakes.</td>
+                    <td id="droppable-6" class="drop-area" data-emoji="6" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>No close contact.</td>
+                    <td id="droppable-7" class="drop-area" data-emoji="7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>No large gatherings.</td>
+                    <td id="droppable-8" class="drop-area" data-emoji="8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Keep a reasonable distance from others.</td>
+                    <td id="droppable-9" class="drop-area" data-emoji="9" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                  
+                  <tr>
+                    <td>Leave packages at door for no-contact delivery.</td>
+                    <td id="droppable-10" class="drop-area" data-emoji="10" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+          
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
