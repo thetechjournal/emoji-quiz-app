@@ -24,7 +24,7 @@ body {
 }
 
 span {
-    color: rgb(250, 89, 89);
+    color: rgb(238, 215, 11);
 }
 
 h1{
@@ -43,7 +43,7 @@ h2{
     padding-left: 0.5em;
     padding-bottom: 0.7em;
     margin: 0;
-    color: rgb(233, 213, 37);
+    color: rgb(245, 239, 182);
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -112,7 +112,7 @@ h2{
     }
 
     .covid-facts td{
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     .covid-facts th{
