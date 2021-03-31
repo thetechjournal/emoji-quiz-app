@@ -24,7 +24,7 @@ body {
 }
 
 span {
-    color: rgb(238, 215, 11);
+    color: #FFBF00;
 }
 
 h1{
@@ -43,7 +43,7 @@ h2{
     padding-left: 0.5em;
     padding-bottom: 0.7em;
     margin: 0;
-    color: rgb(245, 239, 182);
+    color: rgb(248, 235, 207);
     font-family: 'Montserrat', sans-serif;
 
 }
