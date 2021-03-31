@@ -2,10 +2,11 @@
 Make an app based on emojis
 
 ## Published Version:
-https://thetechjournal.github.io/card-generator/
+https://thetechjournal.github.io/emoji-quiz-app/
 
 ## Features
-* using the HTML Drag and Drop API with vanilla JavaScript to use the event handlers.
+* Using the HTML Drag and Drop API to create a COVID 19 Quiz app
+* Fully responsive. Built with html, CSS & vanilla JS.
 
-## Resources:
-* https://www.digitalocean.com/community/tutorials/js-drag-and-drop-vanilla-js
+
+

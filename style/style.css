@@ -23,6 +23,10 @@ body {
     flex-direction: column;
 }
 
+span {
+    color: rgb(250, 89, 89);
+}
+
 h1{
     text-align: center;
     background-color:  #196f8a;
